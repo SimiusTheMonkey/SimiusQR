@@ -30,7 +30,10 @@ strips them out on purpose. Scanning runs entirely on-device.
 1. Download `app-release.apk` from the [Releases](../../releases) page.
 2. Open it on your phone. Android will ask you to allow installing from that source (your
    browser or file manager). This is a one-time "Install unknown apps" setting, not developer mode.
-3. Play Protect may warn about an unknown developer. Tap "Install anyway".
+3. Play Protect will block the install with "App blocked to protect your device ... hasn't
+   seen an app from this developer before". This is expected for any new app that isn't from
+   the Play Store. Tap **More details**; the **Install anyway** link is plain text further down
+   the expanded section (you may need to scroll or expand more than once).
 4. Allow the camera permission on first launch.
 
 Requires Android 6.0 (API 23) or newer.
