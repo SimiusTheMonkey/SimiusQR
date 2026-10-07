@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SimiusQR launcher icon: Simius's finished custom-styled QR code design
+     (qr-1790078228080.png, white background revision), a full-color raster
+     image. No monochrome layer:
+     a detailed multi-tone logo doesn't reduce to Android's two-tone
+     Themed Icon alpha mask, so this ships as a fixed full-color icon. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>
